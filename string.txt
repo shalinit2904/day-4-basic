@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char username[20]="rose";
+    int password=1234;
+    char arr[20];
+    int x;
+    scanf("%s%d",arr,&x);
+    printf("%d",(strcmp(username,arr)));
+    printf("%d",password==x);
+}
